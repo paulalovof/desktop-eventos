@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="meuElemento" style="background-color: lightblue">
+        <h1>Minha div</h1>
+        <h3>passa o mouse sobre mim</h3>
+    </div>
+
+    <div>
+        <button id="botao1" onclick="minhaFuncao()">Botão 1</button>
+
+        <button id="botao2">Botao 2</button>
+
+        <button id="botao3">Botão 3 - JQuery</button>
+    </div>
+
+    <div>
+        <input type="text" id="meuCampo" placeholder="Digite algo aqui...">
+
+        <p id="mensagem"></p>
+    </div>
+
+    <div>
+        <label for="frutas">Escolha uma fruta: </label>
+        <select id="frutas">
+            <option value="maca">Maçã</option>
+            <option value="banana">Banana</option>
+            <option value="laranja">Laranja</option>
+            <option value="uva">Uva</option>
+        </select>
+
+        <p id="fruta-selecionada">Você ainda nao selecionou nenhuma fruta.</p>
+    </div>
+
+    <div>
+        <label id="textoInfo">Clique no campo de entrada</label>
+        <input type="text" id="campo">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
